@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": false,
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"outDir": "../dist",
+		"useUnknownInCatchVariables": true,
+		"exactOptionalPropertyTypes": true,
+		"noImplicitOverride": true,
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"emitDeclarationOnly": true
+	},
+	"exclude": [ "bin" ],
+	"references": [ { "path": ".." } ]
+}
